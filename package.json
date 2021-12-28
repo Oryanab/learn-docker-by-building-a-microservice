@@ -1,0 +1,31 @@
+{
+  "name": "learn-docker-by-building-a-microservice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Oryanab/learn-docker-by-building-a-microservice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Oryanab/learn-docker-by-building-a-microservice/issues"
+  },
+  "homepage": "https://github.com/Oryanab/learn-docker-by-building-a-microservice#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3",
+    "should": "^13.2.3",
+    "supertest": "^6.1.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
